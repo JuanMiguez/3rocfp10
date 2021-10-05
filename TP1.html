@@ -4,40 +4,128 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>TP-1</title>
+    <title>Juegos preferidos</title>
+    <style media="screen">
+      td, th {
+        border: 1px solid grey;
+        background-color:#eee;
+      }
+
+      table{
+        width: 100%;
+      }
+      header{
+        background: url(titulotp1.jpg);
+      }
+      h1{
+        color:white;
+        text-align:center;
+        font-size: 3em;
+        text-decoration: underline;
+        text-decoration-style: dotted;
+        text-decoration-color: white;
+      }
+      h3{
+        color:white;
+        text-align:center;
+        font-size: 2em;
+      }
+      img {
+        border-radius: 10%;
+        width: 40%;
+      }
+      .moska{
+        border-radius: 100%;
+        width: 100px;
+        height: 100px;
+      }
+    </style>
 </head>
 <body>
-    <!--primer paso - definir estructura de la pagina -->
-<header class="cabecera">
-    <!--Aca va a ir la cabecera de la pagina -->
-    <h1 style="text-align:center; color:red">Mis champs de LOL</h1><!-- titulo -->
-    <h2 style="text-align: center">Los mejores champs de lol de mosquito para el pueblo</h2>
-    <img src="img\logolol.png" alt="logo-lol" >
-</header>
+    <!--1ro creo etiquetas semanticas -->
+    <!-- 2do creo las etiquetas de header -->
+    <header>
+        <h1>Mis juegos preferidos</h1>
+        <h3 >de todos los tiempos</h3>
 
-<section class="principal">
-    <strong style="size:20px; color:red">S</strong><span>upport</span>
-    <article class="">
+    </header>
 
-    </article>
-    <article class="">
+    <section class="">
+        <h2>Resumen</h2>
 
-    </article>
-</section>
-<footer class="footer">
+        <table>
+            <tr>
+                <th >nombre</th>
+                <th >imagen👦👦👦👦👦👦</th>
+                <th >link</th>
+            </tr>
+            <tr>
+                <td>LOTRO</td>
+                <td><center><img class="moska" src="img\lotro.jpg" alt="lotro">
+                </center></td>
+                <td><a href="https://www.lotro.com/en">mas info</a></td>
+            </tr>
+            <tr>
+                <td >Eve</td>
+                <td ><img class="moska" src="img\eve.jpg" alt="" width="200"></td>
+                <td ><a href="https://www.eveonline.com/">mas info</a></td>
+            </tr>
+            <tr>
+                <td>Asassing Creed</td>
+                <td><img class="moska" src="img\blackflag.jpg" alt="" width="200"></td>
+                <td><a href="">mas info</a></td>
+            </tr>
+            <tr>
+                <td >Skyrim</td>
+                <td ><img class="moska" src="img\skyrim.jpg" alt="" width="200"></td>
+                <td ><a href="https://elderscrolls.bethesda.net/es/skyrim">mas info</a></td>
+            </tr>
+        </table>
 
-  <form class="" action="mailto:juan.miguez@bue.edu.ar" method="post" enctype="text/plain">
-    <label>Tu nombre:</label>
-    <input type="text" name="nombre" value=""><br>
-    <label for="">Email:</label>
-    <input type="email" name="email" value="tuemail@dominio.com"><br>
-    <label for="">Tu mensaje</label>
-    <textarea name="cuerpo" rows="10" cols="30"></textarea><br>
-    <input type="submit" name="">
-  </form>
+    </section>
 
-</footer>
+    <section >
+        <h2>juegos MMORPG</h2>
+        <article class="">
+            <h3>Lord of the Rings Online</h3>
+            <img src="img\lotro.jpg" alt="" width="400">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> <!--no se que texto poner asi que mando un texto lorem ipsum para rellenar hasta que lo cambie -->
+        </article>
+        <article class="">
+            <h3>Eve Online</h3>
+            <img src="img\eve.jpg" alt="" width="400">
+            <p>¿QUÉ ES EVE ONLINE?<br>
+            EVE Online es un MMORPG de nave espacial impulsado por la comunidad donde los jugadores pueden jugar gratis, eligiendo su propio camino entre innumerables opciones.<br>
 
+            Experimente la exploración espacial, inmensas batallas PvP y PvE y una próspera economía de jugadores en una caja de arena en constante expansión.<br>
+
+            Participa en muchas profesiones y actividades en el juego, incluidas la guerra, la política, la piratería, el comercio y la exploración, en 7.000 sistemas estelares con cientos de miles de otros jugadores.</p>
+        </article>
+
+    </section>
+
+    <section>
+        <h2>juegos aventuras</h2>
+        <article class="">
+            <h3>Asassin creed - black flag</h3>
+            <img src="img\blackflag.jpg" alt="" width="400">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </article>
+        <article class="">
+            <h3>elder scroll - Skyrim</h3>
+            <img src="img\skyrim.jpg" alt="" width="400">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </article>
+    </section>
+
+    <footer>
+        <ul>
+            <li>Juan Pablo Miguez</li>
+            <li>Moskito</li>
+            <li>Profe - cfp 10 </li>
+        </ul>
+        <a href="contacto.html">Contactame!</a>
+    </footer>
 
 </body>
 </html>
