@@ -1,0 +1,32 @@
+td, th {
+  border: 1px solid grey;
+  background-color:#eee;
+}
+table{
+  width: 100%;
+}
+header{
+  background: url(titulotp1.jpg);
+}
+h1{
+  color:white;
+  text-align:center;
+  font-size: 3em;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: white;
+}
+h3{
+  color:white;
+  text-align:center;
+  font-size: 2em;
+}
+img {
+  border-radius: 10%;
+  width: 40%;
+}
+.moska{
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+}
