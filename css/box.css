@@ -1,0 +1,27 @@
+img{
+  width: 200px;
+  display:inline-block;
+}
+.texto1{
+  background-color: lemonchiffon;
+  width: 200px;
+  border:10px solid;
+  padding: 20px;
+  margin: 0px;
+}
+.texto2{
+  background-color: lavender;
+  width: 200px;
+  border:10px solid;
+  margin-left: 260px;
+  padding: 10px;
+
+}
+
+.texto3{
+  background-color: lightsalmon;
+  width: 200px;
+  border:10px solid;
+  padding: 10px;
+  margin-left: 500px;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>formulario</title>
+</head>
+<body>
+    <section class="">
+
+        <!-- Formulario simple que enviará una petición GET -->
+        <form action="" method="get">
+          <label for="GET-name">Nombre:</label>
+          <input id="GET-name" type="text" name="name">
+          <input type="submit" value="Save">
+        </form>
+
+        <!-- Formulario simple que enviará una petición POST -->
+        <form action="" method="post">
+          <label for="POST-name">Nombre:</label>
+          <input id="POST-name" type="text" name="name">
+          <input type="submit" value="Save">
+        </form>
+
+        <!-- Formulario con conjunto de campos, leyenda y etiqueta -->
+        <form action="" method="post">
+          <fieldset>
+            <legend>Título</legend>
+            <input type="radio" name="radio" id="radio">
+            <label for="radio">Clic aquí</label>
+          </fieldset>
+        </form>
+
+        <form action="/action_page.php" method="get">
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">HTML</label><br>
+            <input type="radio" id="css" name="fav_language" value="CSS" checked="checked">
+            <label for="css">CSS</label><br>
+            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+            <label for="javascript">JavaScript</label><br><br>
+            <input type="submit" value="Submit">
+        </form>
+<br><br><br>
+        <form class="" action="mailto:juan.miguez@bue.edu.ar" method="post" enctype="text/plain">
+         <label for="">Nombre:</label>
+          <input type="text" name="nombre" value="">
+          <input type="color" name="color" value="">
+          <br>
+          <label for="">email:</label>
+         <input type="email" name="email" value=""><br>
+         <label for="">su mensaje</label>
+         <textarea name="mensaje" rows="5" cols="30"></textarea><br>
+         <input type="submit" name="" value="enviar">
+        </form>
+<br>
+<br>
+<br>
+
+
+
+    </section>
+
+</body>
+</html>
