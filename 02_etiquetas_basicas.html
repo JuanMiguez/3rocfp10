@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+</head>
+<body>
+    <header>
+        <h1>esto es un titulo</h1><!--h1 - h6 sirve para poner titulos y subtitulos en nuestra pagina  -->
+        <h2>esto es un subtitulo</h2>
+        <h3>esto es un subtitulo de segundo nivel</h3>
+    </header>
+
+    <section>
+        <h2>Etiqutas de parrafo</h2>
+        <p>esto es un parroafo de texto. puede contener multiples lineas. aunque, si no le indico que haga un salto de linea , me aparecera como un texto continuo sin putos y apartes</p>
+        <p>Lorem ipsum dolor sit amet,<br><b> consectetur adipisicing elit</b> <br> <!--la etiqueta <b></b> sirve para resaltar un texto en negrita  pero solo se usa cuando no aplicamos css-->, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br> <i> Ut enim ad minim veniam</i> <br><!--la etiqueta <i></i> sirve para poner un texto en italica osea inclinado -->, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><br> <!--<br> sirve para introducir un salto de linea en el texto -->
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> <!-- La etiqueta <p> sirve para crear un parrafo de texto-->
+        <!-- lorem ipsum es un texto dummy (un texto fake) sirve para "rellenar" la pagina con un parrafo si es que no tengo el texto definitivo -->
+        <span style="color:red">esto es un texto dummy</span><span style="color:purple"> esto es un texto a continuacion</span>
+        <!-- La etiqueta <span> sirve para poner un texto a continuacion (sin saltos de linea antes y despues como si tiene la etiqueta <p>)-->
+    </section>
+
+    <section>
+        <h3>Imagenes </h3>
+        <!--para incrustar imagenes se usa la etiqueta <img> dicha etiqueta tiene dos atributos mandatorios src: que indica el origen de la imagen y alt: que indica el nombre alternativo de la immagen por si la imagen no puede ser cargada
+        * el atributo alt="" sirve para escribir unas palabras que describen la foto. son utilizados por los buscadores para indexar la foto y tambien por los sitemas de lectura para no videntes. tambien se usa por si no carga la foto por alguna razon.-->
+
+        <!-- el atributo src puede ser basicamente escrito de dos formas:
+     mediante la ruta absoluta o relativa. como se ejemplifica a continuacion-->
+
+        <!--ruta absoluta que tambien puede ser a una imagen fuera de nuestro servidor -->
+        <img src="https://de7i3bh7bgh0d.cloudfront.net/2020/10/20/23/59/32/6a181247-f22f-4518-80b3-3e441497c791/MtGWaroftheSpark_blogsplash_1200x630.jpg" alt="dragon" width="400">
+        <br> <!--hago un "punto y aparte" osea un salto de linea -->
+        <!--ruta relativa (relativa a la ubicacion del archivo html ) -->
+        <img src="img/imagen1.jpg" alt="imagen con ruta relativa" width="400" height>
+    </section>
+
+    <section>
+        <h3>Links</h3>
+        <!--links - vinculos -->
+        <!--La etiqueta <a> sirve para realizar links a una pagina o una parte del documento -->
+        <!-- como las etiquetas pueden ser absolutas o relativas pero existe un nuevo tipo el vinculo ancla. este ultimo es para referenciar partes del mismo documento se usa cuando la página es muy larga-->
+        <br>
+        <!--Vinculo absoluto -->
+        <a href="https://slipsum.com/" target="_blank">Samuel hola gente impsum</a>
+        <br>
+        <!--Vinculo relativo-->
+        <a href="about.html" target="_blank">acerca de</a>
+        <br>
+        <!--Vinculos ancla (anchor) -->
+        <!--para que funcione hay que agregar el atributo id="valor"  donde valor es mismo que uno pone en href-->
+        <a href="#pepe"> vinculo a otra parte del mismo documento</a>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <h2 id="pepe" >esta es la segunda parte</h2>
+    </section>
+
+    <section>
+        <h3>Listas</h3>
+        <p>las listas sirven para enumerar elementos. se usan mucho para generar "barras" de navegacion, o tambien, para listar grupos de elemento como se ve a continuacion</p>
+
+        <h4>lista ordenada</h4>
+
+        <ol>
+            <li>Argentina</li>
+            <li>Brasil</li>
+            <li>Colombia</li>
+            <li>Peru</li>
+        </ol>
+        <p>los simbolos utilizados se pueden modificar por css</p>
+        <br>
+        <h4>Lista No ordenada</h4>
+        <ul>
+            <li>Jazz</li>
+            <li>Franco</li>
+            <li>Jessi</li>
+            <li>Celeste</li>
+        </ul>
+    </section>
+
+    
+</body>
+</html>
