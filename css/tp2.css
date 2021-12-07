@@ -1,0 +1,27 @@
+.cabecera{
+  background-color: lavender;
+}
+.cabecera img{
+  width: 500px;
+
+}
+.perritos{
+  background-color: olive;
+}
+.perritos img {
+  width: 300px;
+}
+
+.gatitos{
+  background-color: lavender;
+}
+.gatitos img {
+  width: 300px;
+}
+
+.piedepagina{
+  background-color: olive;
+}
+.socialmedia img {
+  width: 65px;
+}
