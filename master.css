@@ -20,7 +20,7 @@
 .piePagina{
   background-color: pink;
 }
-/* selctor por id */
+/* selector por id */
 #tituloPrincipal{
   text-align: center;
 }
@@ -54,4 +54,14 @@ ul>li{
   transition-delay: 0.5s;
   transition-timing-function: ease-in-out;
   transition-property: background-color;
+}
+/* pseudo elementos */
+.exciting-text::after {
+  content: " <- EXCITING!";
+  color: green;
+}
+
+.boring-text::after {
+  content: " <- BORING";
+  color: red;
 }
