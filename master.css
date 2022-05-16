@@ -3,11 +3,32 @@
 /* selector por clase */
 .cabecera{
   background-color: lavender;
+  height: 200px;
 }
 .cabecera img{
-  width: 100px;
+  display: inline-block;
+  width: 150px;
   border-radius: 100%;
+  position: relative;
+  right: 440px;
+  top: 25px;
 }
+.cabecera h3{
+  display: inline-block;
+  position: relative;
+  left:60px;
+  bottom: 35px;
+}
+/* selector por id */
+#tituloPrincipal{
+  display: inline-block;
+  width: auto;
+  position: relative;
+  left: 250px;
+  bottom: 65px;
+
+}
+
 .navPrincipal{
   background-color: olive;
 
@@ -24,16 +45,7 @@
 .piePagina{
   background-color: pink;
 }
-/* selector por id */
-#tituloPrincipal{
-  display: block;
-  width: auto;
-  text-align: center;
-  padding: 10px;
-  border: 3px solid black;
-  border-radius: 10px;
-  margin: 10px;
-}
+
 /* selector Combinador de descendientes */
 nav li{
  display: inline-block;
@@ -78,6 +90,9 @@ hr{
   margin-top: 20px;
   margin-bottom: 20px;
   border-bottom: 7px dotted red;
+}
+.nota{
+  width:
 }
 .nota img{
   width: auto;
