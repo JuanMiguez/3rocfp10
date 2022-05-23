@@ -39,8 +39,61 @@
 .noticias{
   background-color: lavender;
 }
-.nota{
+.noticias h3{
+  text-align: center;
+  position: relative;
+  top: 10px;
+}
+.nota1{
   background-color: olive;
+  width: 48%;
+  display: inline-block;
+  margin: 10px;
+  height: 600px;
+}
+.nota1 img{
+  display: inline-block;
+  position: relative;
+  left: 35%;
+  top: 10px;
+  width: auto;
+  height: 300px;
+}
+.nota1 h4{
+  text-align: center;
+}
+.nota1 p,a{
+  width: 90%;
+  position: relative;
+  left: 30px;
+  margin: 10px;
+}
+
+.nota2{
+  background-color: olive;
+  width: 48%;
+  display: inline-block;
+  margin: 10px;
+  height: 600px;
+  position: relative;
+  top: 32px;
+}
+.nota2 img{
+  display: inline-block;
+  position: relative;
+  left: 25%;
+  width: 300px;
+  height: auto;
+}
+.nota2 h4{
+  text-align: center;
+}
+
+.nota2 p,a{
+  width: 90%;
+  position: relative;
+  left: 30px;
+  padding: 10px;
 }
 .piePagina{
   background-color: pink;
@@ -90,11 +143,4 @@ hr{
   margin-top: 20px;
   margin-bottom: 20px;
   border-bottom: 7px dotted red;
-}
-.nota{
-  width:
-}
-.nota img{
-  width: auto;
-  height: 300px;
 }
