@@ -1,0 +1,61 @@
+img{
+  width:200px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "header header header header"
+    ". nav nav ."
+    "main main main main"
+    "news news news news"
+    "footer footer footer footer";
+    justify-items:stretch;
+  }
+
+.cabecera {
+  background-color: olive;
+  grid-area: header;
+}
+.principal {
+  background-color: lavender;
+  grid-area: main;
+}
+.navPrincipal {
+  background-color: green;
+  grid-area: nav;
+}
+.noticias{
+  background-color: pink;
+  grid-area: news;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "nota1  nota2";
+    justify-items:stretch;
+}
+.piePagina {
+  background-color: orange;
+  grid-area: footer;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "pie1  pie2";
+    justify-items:stretch;
+}
+.nota1 {
+  grid-area: nota1;
+}
+.nota2 {
+  grid-area: nota2;
+}
+.pie1 {
+  grid-area: pie1;
+}
+.pie2 {
+  grid-area: pie2;
+}
