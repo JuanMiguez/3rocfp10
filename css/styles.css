@@ -1,32 +1,9 @@
-td, th {
-  border: 1px solid grey;
-  background-color:#eee;
+p{
+  color:#e6e6fa;
 }
-table{
-  width: 100%;
+h1,h2,h3,h4,strong,li,a{
+  color:#e6e6fa;
 }
-header{
-  background: url(titulotp1.jpg);
-}
-h1{
-  color:white;
-  text-align:center;
-  font-size: 3em;
-  text-decoration: underline;
-  text-decoration-style: dotted;
-  text-decoration-color: white;
-}
-h3{
-  color:white;
-  text-align:center;
-  font-size: 2em;
-}
-img {
-  border-radius: 10%;
-  width: 40%;
-}
-.moska{
-  border-radius: 100%;
-  width: 100px;
-  height: 100px;
+body{
+  background-color: #143F6B;
 }

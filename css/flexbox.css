@@ -1,0 +1,54 @@
+img{
+  width: 200px;
+}
+
+.noticias{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content:center;
+  align-items:center;
+  gap: 30px;
+}
+
+.nota1,.nota2{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content:center;
+  width: 40%;
+}
+.nota1{
+  order: 1;
+}
+.nota2{
+  order: 2;
+}
+.noticias h3{
+  text-align: center;
+  order: -1;
+  flex-basis:100%;
+}
+.nota1 h4,.nota2 h4{
+  text-align: center;
+  flex-basis:100%;
+}
+h1,h3,h4,h5{
+  font-family: 'Noto Serif', serif;
+}
+p,span{
+  font-family: 'Noto Sans', sans-serif;
+}
+
+h1{
+  font-size: 3rem;
+}
+h2{
+  font-family: 'Parisienne', cursive;
+  font-size: 2rem;
+}
+h3,h4{
+  font-size: 1.8rem;
+}
+li,a{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1.5rem;
+}
