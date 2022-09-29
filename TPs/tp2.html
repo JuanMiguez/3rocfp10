@@ -1,0 +1,100 @@
+<!--Tp2: etiquetas basicas 1 -->
+<!--
+    crear un documento html conteniendo al menos las siguientes etiquetas:
+ a, h1 - h6, ol, img, ul, p, br, hr,
+
+la pagina puede ser de cualquier tematica (adecuada a la escuela).
+y debe tener una estructura segun vimos en el documento estructura basica
+-->
+
+
+
+<!-- todas las etiqutas tienen la siguiente forma -->
+<!-- <etiqueta atributo="valor_del_atributo"> contenido </etiqueta>  -->
+
+<!DOCTYPE html>
+<!-- doctype le indica al navegador que lo que hay aca es una pagina web HTML ver 5-->
+<html lang="es">
+<!-- esta es la primera etiqueta que siempre hay en los documentos web
+html es la etiqueta que es padre de todas las demas etiquetas. el atributo lang
+le dice el tipo de idioma que utilizara la pagina -->
+<head><!--La etiqueta head sirve para pasarle informacion al navegador, a traves de
+sus "hijos" es decir las etiquetas que estan contenidas entre la apertura y el cierre
+de la etiqueta -->
+    <meta charset="UTF-8"> <!--es el juego de caracteres que utiliza
+        la pagina para mostrar -->
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> 🔥🔥html- basico🔥🔥 </title> <!-- define el nombre que se
+        verá en la pestaña de la página -->
+    <link rel="stylesheet" href="css\styles.css">
+
+</head>
+<body style="background-color:#143F6B;"> <!-- esta etiqueta sirve para poner todo el contenido que veran los usuarios,
+     como fotos, videos, texto, etc. -->
+    <h1 style="color:#e6e6fa; font-size: 3em;text-align: center;text-shadow: 2px 5px 5px #F6F54D; " >Esto es un titulo de primer nivel</h1> <!-- h1 - h6 sirve para poner un
+        titulo -->
+    <h2 style="color: #FFF;">esto es un titulo nivel 2</h2>
+    <h3>esto es un titulo de nivel 3</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <strong>esto es un texto resaltado (en negrita)</strong> <!-- sirve para poner un texto en negrita  e equivalente a <b> </b>-->
+    <p><!-- la etiqueta p sirve para crear un texto parrafo -->
+    The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men.<i>Blessed is he who</i>, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother's keeper and the finder of lost children. And I will strike down upon thee with great vengeance and furious anger those who would attempt to poison and destroy My brothers. And you will know My name is the Lord when <b>I lay My vengeance upon thee.</b>
+    <!-- end slipsum code --></p>
+
+<!--imagenes -->
+<!-- la etiqueta imagen es una etiqueta autocontenida.
+    * el atributo alt="" sirve para escribir unas palabras que describen la foto. son utilizados por los buscadores para indexar la foto y tambien por los sitemas de lectura para no videntes. tambien se usa por si no carga la foto por alguna razon.
+    * el atributo src="" define la ruta de imagen. es decir donde se encuentra.
+    la ruta puede ser absoluta (ejemplo 1) o relativa (ejemplo 2)
+
+    <!--ejemplo 1 - ruta absoluta -->
+    <img src="https://render.fineartamerica.com/images/rendered/search/print/8/6/break/images/artworkimages/medium/1/1-tasty-burger-ellen-patton.jpg" alt="samuel jackson" style="width:33%;">
+
+    <!--ejemplo2 - ruta relativa -->
+    <img src="img\dragon.png" alt="icecube" width="400px" style="width:33%;">
+    <img src="https://render.fineartamerica.com/images/rendered/search/print/8/6/break/images/artworkimages/medium/1/1-tasty-burger-ellen-patton.jpg" alt="samuel jackson" style="width:33%;">
+    <!--links - vinculos -->
+    <!--La etiqueta <a> sirve para realizar links a una pagina o una parte del documento -->
+    <!-- como las etiquetas pueden ser absolutas o relativas pero existe un nuevo tipo el vinculo ancla. este ultimo es para referenciar partes del mismo documento se usa cuando la página es muy larga-->
+    <br>
+    <!--Vinculo absoluto -->
+    <a href="https://slipsum.com/">samulel impsum</a>
+    <br>
+    <!--Vinculo relativo-->
+    <a href="contacto.html">contactanos</a>
+
+    <br>
+    <!--Vinculos ancla (anchor) -->
+    <!--para que funcione hay agregar el atributo id="valor"  donde valor es mismo que uno pone en href-->
+    <a href="#parte2"> vinculo a otra parte del mismo documento</a>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <h2 id="parte2" >esta es la segunda parte</h2>
+
+    <!--listas ordenadas y desordenadas -->
+
+    <!--Listas ordenadas -->
+
+    <h3> frutas que gustan en orden - lista ordenada</h3>
+    <ol type="a"> <!--el atributo type="" define el tipo de lista. numeros letras, numeros romanos, etc-->
+        <li>frambuesa</li>
+        <li>frutilla</li>
+        <li>Anana</li>
+        <li>pomelo</li>
+    </ol>
+
+    <!--ul es lista NO ordenada -->
+
+    <h3> Idolos del deporte argentino - lista no ordenada </h3>
+    <ul style="list-style-type:square"> <!--Style="" sirve para aplicar css directomente en la etiqueta.(inline) -->
+        <li>Messi</li>
+        <li>Maradona</li>
+        <li>Del potro</li>
+        <li>ginobilli</li>
+        <li>Fangio</li>
+        <li>Montero</li>
+        <li>Di maria....</li>
+    </ul>
+
+</body>
+</html>
