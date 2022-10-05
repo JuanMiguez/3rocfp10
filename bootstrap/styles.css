@@ -1,0 +1,40 @@
+.imagenescar{
+    height: 500px;
+    
+}
+.tDragon{
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: -0.05em;
+    color: #458ccd;
+    text-shadow: -7px -7px 0px #000000;
+    
+}
+
+.tBall{
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #E91D23;
+    letter-spacing: -0.05em;
+    text-shadow: -7px -7px 0px #000000;
+    
+}
+
+h1,h2,h3,button,a,p,span{
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.img-thumbnail{
+    height: 90%;
+}
+
+.cosplay{
+    background-color: #458ccd;
+}
+.historia{
+    background-color: #85cd45;
+}
+.personajes{
+    background-color: #458ccd;
+}
+.memes{
+    background-color: #79cd45;
+}
