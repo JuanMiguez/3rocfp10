@@ -16,7 +16,7 @@
   <body>
    <!--cabecera-->
     <div class="container">
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg ">
             <div class="container-fluid">
                 <!--Logo-->
               <a class="navbar-brand" href="#">
@@ -31,16 +31,16 @@
                     <a class="nav-link active fs-2" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link disabled fs-2" href="#">Cosplay</a>
+                    <a class="nav-link fs-2" href="#cosplay">Cosplay</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link disabled fs-2">Historia</a>
+                    <a class="nav-link fs-2" href="#historia">Historia</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link disabled fs-2">Personajes</a>
+                    <a class="nav-link fs-2" href="#personajes">Personajes</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link disabled fs-2">Memes</a>
+                    <a class="nav-link fs-2" href="#memes">Memes</a>
                   </li>
                 </ul>                
               </div>
@@ -73,25 +73,25 @@
     <section class="features container ">
       <div class="row">
         <div class="col-lg-3 col-md-6">
-          <a class="nav-link" href="#">
+          <a class="nav-link" href="#cosplay">
             <img class=" rounded-6" src="img/goku1.png" alt="goku chiquito" height="150px" >
             <p class="text-center fs-2">Cosplay</p>
           </a>
         </div>
         <div class="col-lg-3 col-md-6">
-          <a class="nav-link" href="#">
+          <a class="nav-link" href="#historia">
             <img class=" rounded-6" src="img/goku2.png" alt="goku chiquito" height="150px" >
             <p class="text-center fs-2">Historia</p>
           </a>
         </div>
         <div class="col-lg-3 col-md-6">
-          <a class="nav-link" href="#">
+          <a class="nav-link" href="#personajes">
             <img class=" rounded-4" src="img/shenlongfeliz.png" alt="goku chiquito" height="150px">
             <p class="text-center fs-2">Personajes</p>
           </a>
         </div>
         <div class="col-lg-3 col-md-6">
-          <a class="nav-link" href="#">
+          <a class="nav-link" href="#memes">
             <img class=" rounded-4" src="img/meme.png" alt="goku con esferas" height="150px">
             <p class="text-center fs-2">Memes</p>
           </a>
@@ -103,7 +103,7 @@
     <div class="container">
       <div class="row">
         <!--cosplay seccion-->
-        <section class="cosplay col-lg-6 text-center"> 
+        <section id="cosplay" class="cosplay col-lg-6 text-center"> 
           <h4 class="mt-2 display-6">Cosplay</h4>
           <img class="rounded-4 mt-2" src="img/cosplay-maestro-roshi.png" alt="cosplay1" width="90%">
           <p class="mt-2">Taichi Shimizu es un fisiculturista que vive intentando obtener la perfección de su cuerpo, 
@@ -112,7 +112,7 @@
                           casi a la perfección al maestro Roshi utilizando su máximo poder.</p>          
         </section>
         <!--historia seccion-->
-        <section class="historia col-lg-6">
+        <section id="historia" class="historia col-lg-6">
             <h4 class="mt-2 display-6">Historia</h4>
             <img class="rounded-4 mt-2" src="img/historia.jpg" alt="historia" width="90%">
             <p class="mt-2">Freezer es un ser que conquista planetas para venderlos después a través de una organizaciónNota 1​ a la que pertenecen criaturas de distintas razas. Una de ellas es la de los saiyajin, seres con aspecto humano y poseedores de una considerable fuerza. Temeroso de que representen una amenaza para su dominio, Freezer decide usar sus poderes para aniquilarlos destruyendo su hogar, el planeta Vegeta.16​ Solo unos cuantos saiyajin sobreviven a la masacre, entre ellos Vegeta, Nappa y los hermanos Raditz y Kakarotto, a quienes prefiere dejar con vida para que sigan sirviendo a su propósito.</p>
@@ -120,12 +120,12 @@
       </div>
       <div class="row">
         <!--personajes seccion-->
-        <section class="personajes col-lg-6">
+        <section id="personajes" class="personajes col-lg-6">
           <h4 class="mt-2 display-6">Personajes</h4>
           <img class="rounded-4 mt-2" src="img/personajes.jpg" alt="historia" width="90%">
         </section>
         <!--memes seccion-->
-        <section class="memes col-lg-6">
+        <section id="memes" class="memes col-lg-6">
           <h4 class="mt-2 display-6">Memes</h4>
           <img class="rounded-4 mt-2" src="img/meme1.jpg" alt="historia" width="60%">
           <img class="rounded-4 mt-2" src="img/meme3.jpg" alt="historia" width="60%">
@@ -136,7 +136,37 @@
     
     
     <!--footer-->
-    <footer>footer</footer>
+    <footer class="container mt-5 piePagina">
+      <div class="row">
+        <!--redes sociales-->
+        <div class="col-md-6 text-center">
+          <h3 class="mt-3">Redes Sociales</h3>
+          <ul class="socialMedia mt-3">
+            <li class="me-3">
+              <a href="">
+                <img class="socialMediaIcon " src="img/facebook.png" alt="facebook icon">
+              </a>
+            </li>
+            <li class="me-3"><a href=""><img class="socialMediaIcon" src="img/instagram.png" alt="instagram icon"></a></li>
+            <li class="me-3"><a href=""><img class="socialMediaIcon" src="img/gorjeo.png" alt="twiter icon"></a></li>
+            <li class="me-3"><a href=""><img class="socialMediaIcon" src="img/reddit.png" alt="reddit icon"></a></li>
+            <li class="me-3"><a href=""><img class="socialMediaIcon" src="img/github.png" alt="github icon"></a></li>
+          </ul>
+
+        </div>
+        <!-- creditos-->
+        <div class="col-md-6">
+          <h3 class="mt-3 text-center">Creditos</h3>
+          <ul class="credits mt-3">
+            <li><span>Moskito</span></li>
+            <li><a href="mailto:juan.miguez@bue.edu.ar">juan.miguez@bue.edu.ar</a></li>
+            <li><span>CFP Nro 10, Raul Scalabrini Ortiz</span></li>
+            <li><span>Copyleft : todos los derechos permitidos</span></li>
+          </ul>
+
+        </div>
+      </div>
+    </footer>
 
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
