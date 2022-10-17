@@ -1,9 +1,55 @@
-p{
-  color:#e6e6fa;
+.imagenescar{
+    height: 500px;
+    
 }
-h1,h2,h3,h4,strong,li,a{
-  color:#e6e6fa;
+.tDragon{
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: -0.05em;
+    color: #458ccd;
+    text-shadow: -7px -7px 0px #000000;
+    
 }
-body{
-  background-color: #143F6B;
+
+.tBall{
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #E91D23;
+    letter-spacing: -0.05em;
+    text-shadow: -7px -7px 0px #000000;
+    
+}
+
+h1,h2,h3,button,a,p,span,li,h4{
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.img-thumbnail{
+    height: 90%;
+}
+
+.cosplay{
+    
+}
+.historia{
+    
+}
+.personajes{
+    
+}
+.memes{
+    
+}
+.piePagina{
+    background-color: rgb(244, 236, 233);
+}
+.socialMediaIcon{
+    height: 3rem;
+}
+.socialMedia{
+    list-style:none;
+}
+.socialMedia li{
+    display: inline-block;
+}
+.credits{
+    list-style:none;
 }
