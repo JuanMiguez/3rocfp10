@@ -1,0 +1,49 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:  auto ;
+    grid-template-areas:
+    "logo navprincipal navprincipal"
+    "cabecera cabecera cabecera"
+    "principal principal secundario"
+    "piedepagina piedepagina piedepagina"
+}
+
+
+
+.logo{
+    background-color: blueviolet;
+    grid-area: logo;
+}
+.navprincipal{
+    background-color: chartreuse;
+    grid-area: navprincipal;
+}
+.cabecera{
+    background-color: coral;
+    grid-area: cabecera;
+}
+.seccion1{
+    background-color: dodgerblue;
+}
+.articulo1{
+    background-color: lightcoral;
+}
+.articulo2{
+    background-color: mediumorchid;
+}
+.seccion2{
+    background-color: lightseagreen;
+}
+.secundario{
+    background-color: lightsalmon;
+    grid-area: secundario;
+}
+.piedepagina{
+    background-color: lime;
+    grid-area: piedepagina;
+}
+.principal{
+    background-color: aliceblue;
+    grid-area: principal;
+}

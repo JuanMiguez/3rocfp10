@@ -1,0 +1,59 @@
+/*Selectores */
+
+/*Selector Universal */
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+/*Selectores de etiqueta*/    
+h1 {
+    color: #8A8E27;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+h2 {
+    color: #8A8E27;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+h3 {
+    color: #8A8E27;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+/*multiples selectores para las mismas propiedades */
+h1, h2, h3 {
+    color: #8A8E27;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+ /*Selector descendente*/
+  
+ p span { color: red; }  /*todos los span que esten dentro de p*/
+h1 span { color: blue; }  /*todos los span que esten dentro de h1*/
+
+/*Selector de clase */
+
+.destacado { color: red; }
+
+/*Selectores de ID*/
+#destacado { color: red; }
+
+/*OJO! ejemplos*/
+/* Todos los elementos de tipo "p" con atributo id="aviso" */
+p#aviso { color: blue; }
+/* Todos los elementos con atributo id="aviso" que estén dentro de cualquier elemento de tipo "p" */
+p #aviso { color: blue; }
+/* Todos los elementos "p" de la página y todos los elementos con atributo id="aviso" de la página */
+p, #aviso { color: rgba(66, 66, 147, 0.608); }
+
+/*Selectores avanzados*/
+/*selectores de hijos directos*/
+
+p > span { color: blue; } /*todos los elementos "span" que son hijos directos del elemento p*/
+
+/*Selector adyacente*/
+p + p { text-indent: 1.5em; }

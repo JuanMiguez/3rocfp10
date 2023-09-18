@@ -1,0 +1,35 @@
+/*Paleta Colores */
+
+.color-primary-0 { color: #2F4475 }	/* Main Primary color */
+.color-primary-1 { color: #7888AE }
+.color-primary-2 { color: #4E6290 }
+.color-primary-3 { color: #182D5C }
+.color-primary-4 { color: #07183F }
+
+.color-secondary-1-0 { color: #AF9B3A }	/* Main Secondary color (1) */
+.color-secondary-1-1 { color: #FFF0A7 }
+.color-secondary-1-2 { color: #D8C569 }
+.color-secondary-1-3 { color: #897618 }
+.color-secondary-1-4 { color: #5E4E01 }
+
+.color-secondary-2-0 { color: #AF6F3A }	/* Main Secondary color (2) */
+.color-secondary-2-1 { color: #FFCFA7 }
+.color-secondary-2-2 { color: #D89B69 }
+.color-secondary-2-3 { color: #894C18 }
+.color-secondary-2-4 { color: #5E2B01 }
+
+img{
+    width: 100px;
+}
+.headerimg{
+    width: 100px;
+}
+body {
+    font-size: 0.9em;
+    text-indent: 2.5em;
+    }
+h1 { font-size: 2rem; }
+h2 {font-size: 1.5rem;}
+h3 {font-size: 1.3rem;}
+h4 {font-size: 1.2rem;}
+

@@ -1,0 +1,26 @@
+img{
+    width: 75vh;
+    height: auto;
+    border: none;
+    border-radius: 20px;
+/* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 3px 3px 20px 5px rgba(4, 0, 255, 0.645), 
+    -3px -3px 20px 5px rgba(4, 0, 255, 0.645);
+    transition: 1s;
+    border: none;
+}
+
+img:hover{
+    width: 75vh;
+    height: auto;
+    border: none;
+    border-radius: 20px;
+/* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 3px 3px 10px 7px rgba(140, 0, 255, 0.645), 
+    -3px -3px 10px 7px rgba(140, 0, 255, 0.645);
+    transition: 1s;
+    border: none;
+}
+a{
+    border: none;
+}

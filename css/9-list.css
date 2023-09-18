@@ -1,0 +1,104 @@
+ul {
+    margin:0;
+    padding-left: 1.5em;
+    line-height: 1.5em;
+    }
+ul li { padding-left: .2em; }
+ul.ok{ list-style-image: url("img/check-mark.png"); }
+ul.go { list-style-image: url("img/right-arrow.png"); }
+ul.redondo { list-style-image: url("img/disco-ball.png"); }
+
+
+ul.menu {
+    width: 180px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+
+ul.menu li {
+    width: 180px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border:1px solid #7C7C7C;
+    margin: 2px;
+    
+    }
+
+ul.menu li a:link, ul.menu li a:visited {
+    padding: .2em 0 .2em .5em;
+    display: block;
+    text-decoration: none;
+    color: #333;
+    
+    }
+ul.menu2 {
+        width: 180px;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        border: 1px solid #7C7C7C;
+        background-color: #f8eaf3;
+        }
+ul.menu2 li {
+        border-bottom:1px solid #7C7C7C;
+        border-top: 1px solid #FFF;
+        background: #f8eaf3;
+        }
+ul.menu2 li a:link, ul.menu2 li a:visited {
+        padding: .2em 0 .2em .5em;
+        display:block;
+        text-decoration: none;
+        color: #333;
+        }
+ul.menu2 {
+    clear: both;
+    float: left;
+    
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+ul.menu2 li {
+    float: left;
+    }
+ul.menu2 li a:link, ul.menu2 li a:visited {
+    padding: .5em;
+    display: block;
+    text-decoration: none;
+    color: #f8eaf3;
+    background: #ce2a97;
+    border-top: 1px solid #7C7C7C;
+    border-right: 1px solid #7C7C7C;
+    border-bottom: 1px solid #9C9C9C;
+    border-radius: 40%;
+    }
+    ul.menu2 li a:link, ul.menu2 li a:visited {
+        padding: .5em;
+        display: block;
+        text-decoration: none;
+        color: #f8eaf3;
+        background: #ce2a97;
+        border-top: 1px solid #7C7C7C;
+        border-right: 1px solid #7C7C7C;
+        border-bottom: 1px solid #9C9C9C;
+        border-radius: 40%;
+        transition: .2s;
+        }
+    
+ul.menu2 li a:hover{
+    background-color: #f8eaf3;
+    color: #ce2a97;
+    transition: .5s;
+}
+
+ul.menu2 {
+    clear: both;
+    float: left;
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-left: 1px solid #7C7C7C;
+    }

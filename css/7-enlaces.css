@@ -1,0 +1,60 @@
+a{
+    display: block;
+    margin: 1em 0;
+}
+
+.alternativo {color: #CC0000;}
+.alternativo:hover {color: #07cc00;}
+.alternativo:active {color: #2500cc;}
+.simple {text-decoration: none;}
+.simple:hover {color: #07cc00;
+               background-color: aqua;
+               box-shadow: 10px 5px 5px black;}
+.simple:active {color: #2500cc;}
+.importante {font-weight: bold; font-size: 1.3em;}
+.raro {text-decoration:line-through;}
+
+
+
+.simple {text-decoration: underline;}
+.color { border-bottom: medium solid #CC0000;}
+.ancho {border-bottom: thick solid;}
+.separado {border-bottom: 1px solid; padding-bottom: .6em;}
+.discontinuo {border-bottom: thin dashed;}.discontinuo {border-bottom: thin dashed;}
+
+
+a { margin: 1em 0; float: left; clear: left; }
+
+.rss {
+color: #64e329;
+padding: 25px;
+background-color: #FFF;
+background-image: url(img/rss.png);
+background-position:left center ;
+background-repeat: no-repeat;
+}
+
+
+.pdf {
+    padding: 0 0 0 22px;
+    background: #FFF url(img/pdf.png) no-repeat left center;
+    }
+
+a { margin: 1em 0; float: left; clear: left; }
+
+a.boton {
+    text-decoration: none;
+    background: #651f1f;
+    color: #f9f7f7;
+    border: 1px outset #500e0e;
+    padding: .1em .5em;
+    border-radius: 10px;
+    }
+a.boton:hover {
+    background: rgb(243, 192, 240);
+    color: #500e0e;
+    transition: .3s;
+    }
+a.boton:active {
+    border: 1px inset #000;
+    }

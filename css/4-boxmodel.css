@@ -1,0 +1,25 @@
+*
+{
+    border:1px dotted rgb(78, 18, 18)
+}
+.columna1{ 
+    display: inline-block;   
+    width: 49%;
+    background-color: aquamarine;
+    
+    
+}
+.columna2{
+    display: inline-block;
+    width: 49%;
+    background-color:rgb(196, 159, 230);
+}
+header img{
+    width: 20%;
+    height: 300px;
+}
+h1{
+    position: fixed;
+    font-size: 3em;
+    
+}
