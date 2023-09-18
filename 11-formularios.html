@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios</title>
+    <link rel="stylesheet" href="css/11-formularios.css">
+</head>
+<body>
+    <h1>Formularios</h1>
+    <h2>formularios basicos</h2>
+
+    <h3>Mostrar un botón como un enlace</h3>
+
+<input type="button" value="Botón normal" />
+<input class="enlace" type="button" value="Botón como enlace" />
+
+<h3>mejoras en los campos de texto</h3>
+<form>
+    <fieldset>
+    <legend>Alta en el servicio</legend>
+    <div>
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" />
+    </div>
+    
+    <div>
+        <label for="apellidos">Apellidos</label>
+        <input type="text" id="apellidos" size="50" />
+    </div>
+<div>
+    <label for="dni">DNI</label>
+    <input type="text" id="dni" size="10" maxlength="9" />
+</div>
+<div>
+    <label for="contrasena">Contraseña</label>
+    <input type="password" id="contrasena" />
+</div>    
+<div>
+    <input class="btn" type="submit" value="Darme de alta" />
+</div>
+    
+    </fieldset>
+
+    <fieldset>
+        <legend>Alta en el servicio</legend>
+        <div>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" />
+        </div>
+        
+        <div>
+            <label for="apellidos">Apellidos</label>
+            <input type="text" id="apellidos" size="50" />
+        </div>
+    <div>
+        <label for="dni">DNI</label>
+        <input type="text" id="dni" size="10" maxlength="9" />
+    </div>
+    <div>
+        <label for="contrasena">Contraseña</label>
+        <input type="password" id="contrasena" />
+    </div>    
+    <div>
+        <input class="btn" type="submit" value="Darme de alta" />
+    </div>
+        
+        </fieldset>
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Etiquetas parte 2</h1>
+    <section>
+      <h3>Tablas</h3>
+      <table> <!--Table define la tabla -->
+        <tr> <!-- tr (table row) define una linea de la tabla, en este caso los titulos de la columna-->
+          <th>NICK</th> <!-- th (table header) define los encabezados de la tabla -->
+          <th>Nombre</th>
+          <th>Edad</th>
+          <th>ROL</th>
+        </tr>
+        <tr>
+          <td>Moskito</td> <!-- td (table data) define los datos de cada  columna-->
+          <td>Juan Pablo</td>
+          <td>47</td>
+          <td>Docente</td>
+        </tr>
+        <tr>
+          <td>Cele</td>
+          <td>Celeste</td>
+          <td>20</td>
+          <td>Estudiante</td>
+        </tr>
+        <tr>
+          <td>Jazz</td>
+          <td>Jazmin</td>
+          <td>21</td>
+          <td>Estudiante</td>
+        </tr>
+      </table>
+    </section>
+    <section>
+      <h2>Formularios</h2>
+      <!-- Formulario simple que enviará una petición GET -->
+      <form action="http://www.google.com/search?" method="get">
+        <label for="nombreID">Realice su busqueda usando google:</label>
+        <input id="nombreID" type="text" name="q" />
+        <br>
+        <label for="GET-pass">ingrese su contraseña</label>
+        <input type="password">}
+        <br>
+        <input type="submit" value="Enviar" />
+      </form>
+      <br />
+      <!-- Formulario simple que enviará una petición POST -->
+      <form action="mailto:juan.miguez@bue.edu.ar" method="post">
+        <label for="POST-name">nombre:</label>
+        <input id="POST-name" type="text" name="mensaje" />
+        <br>
+        <label for="Post-mail">ingrese su mail</label>
+        <input type="email">
+        <br>
+        <label for="textarea">mensaje:</label>
+        <textarea name="su mensaje" id="" cols="30" rows="10">mensaje</textarea>
+        <br>
+        <input type="submit" value="mandalo negro!" />
+      </form>
+      <br />
+      <!-- Formulario con conjunto de campos, leyenda y etiqueta -->
+      <form action="mailto:juan.miguez@bue.edu.ar" method="post">
+        <fieldset>
+          <legend>con que sexo te percibis</legend>
+          <input type="radio" name="sexo" value="masculino" id="mas" />
+          <label for="radio">Masculino</label>
+          <br>
+          <input type="radio" name="sexo333" value="femenino" id="fem" />
+          <label for="radio">femenino</label>
+          <br>
+          <input type="radio" name="sexo" value="no binario" id="nobin" />
+          <label for="radio">no binario</label>
+        </fieldset>
+        <br>
+        <input type="submit" value="enviar">
+      </form>
+      <br />
+
+      <form action="mailto:juan.miguez@bue.edu.ar" method="post">
+        <fieldset>
+          <legend>por favor eliga su metodo preferido de contacto:</legend>
+          <div>
+            <input type="radio" id="contactChoice1" name="contact" value="email" />
+            <label for="contactChoice1">Email</label>
+      
+            <input type="radio" id="contactChoice2" name="contact" value="phone" />
+            <label for="contactChoice2">Phone</label>
+      
+            <input type="radio" id="contactChoice3" name="contact" value="mail" />
+            <label for="contactChoice3">Mail</label>
+          </div>
+          <div>
+            <button type="submit">Submit</button>
+          </div>
+        </fieldset>
+      </form>
+      
+
+
+
+      <form
+        class=""
+        action="mailto:juan.miguez@bue.edu.ar"
+        method="post"
+        enctype="text/plain"
+      >
+        <label for="">Nombre:</label>
+        <input type="text" name="nombre" value="" />
+        <input type="color" name="color" value="" />
+        <br />
+        <label for="">email:</label>
+        <input type="email" name="email" value="" /><br />
+        <label for="">su mensaje</label>
+        <textarea name="mensaje" rows="5" cols="30"></textarea><br />
+        <input type="submit" name="" value="enviar" />
+      </form>
+    </section>
+  </body>
+</html>
