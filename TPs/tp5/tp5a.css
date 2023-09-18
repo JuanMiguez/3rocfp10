@@ -1,0 +1,71 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows:  auto;
+    grid-template-areas:
+    "cabecera cabecera cabecera cabecera"
+    "principal principal principal publicidad "    
+    "piePagina piePagina piePagina piePagina"
+}
+.cabecera{
+    grid-area: cabecera;
+    background-color: coral;
+    padding: 5px;
+    border-radius: 10px;
+}
+.pincipal{
+    grid-area: principal;
+    background-color: cornflowerblue;
+    padding: 5px;
+    border-radius: 10px;
+}
+.publicidad{
+    grid-area: publicidad;
+    background-color: darkcyan;
+    padding: 5px;
+    border-radius: 10px;
+}
+.piePagina{
+    grid-area: piePagina;
+    background-color: lightpink;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.juegosCasuales{
+    background-color: aquamarine;
+    padding: 5px;
+    border-radius: 10px;
+}
+.juegosExpert{
+    background-color: rgb(0, 255, 238);
+    padding: 5px;
+    border-radius: 10px;
+}
+.pieMain{
+    background-color: blueviolet;
+    padding: 5px;
+    border-radius: 10px;
+}
+.juego1{
+    display: inline-block;
+    background-color: greenyellow;
+    padding: 5px;
+    border-radius: 10px;
+    width: 22%;
+}
+.juego2{
+    display: inline-block;
+    background-color:lawngreen;
+    padding: 5px;
+    border-radius: 10px;
+    width: 22%;
+}
+.piePagina div{
+    display: inline-block;
+    background-color: khaki;
+    margin:1px;
+    padding: 5px;
+    border-radius: 10px;
+    width: 31%;
+}
